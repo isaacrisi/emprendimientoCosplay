@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pitch — Anime Cosplay Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#ff4d6d;
+      --muted:#9aa4b2;
+      --glass: rgba(255,255,255,0.04);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background:linear-gradient(180deg, #071021 0%, #08132a 100%);
+      color:#e6eef6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:32px;
+    }
+    .container{max-width:1000px;margin:0 auto}
+    header{display:flex;gap:20px;align-items:center;margin-bottom:28px}
+    .logo{width:88px;height:88px;border-radius:14px;background:linear-gradient(135deg, rgba(255,77,109,0.14), rgba(78,94,255,0.08));display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,0.04)}
+    .logo h1{font-size:20px;margin:0;color:var(--accent)}
+    .title{flex:1}
+    .title h2{margin:0;font-size:20px;font-weight:700}
+    .title p{margin:6px 0 0;color:var(--muted);font-size:14px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);padding:22px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    h3{margin:0 0 10px;font-size:16px}
+    p{margin:0 0 12px;line-height:1.45;color:#d6e3f2}
+    ul{margin:0 0 12px;padding-left:18px}
+    li{margin-bottom:8px}
+
+    .kpi{display:flex;gap:12px;margin-top:10px}
+    .kpi .item{background:var(--glass);padding:12px;border-radius:8px;flex:1;text-align:center}
+    .kpi .num{font-weight:700;font-size:18px;color:#fff}
+    .kpi .label{font-size:12px;color:var(--muted)}
+
+    .cta{display:flex;gap:12px;margin-top:14px}
+    .btn{padding:10px 14px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#7b5cff);color:white}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+
+    .sidebar .small{font-size:13px;color:var(--muted)}
+    .tag{display:inline-block;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:999px;font-size:12px;margin-right:6px}
+
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr;}
+      .sidebar{order:-1}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><h1>AC</h1></div>
+      <div class="title">
+        <h2>Anime Cosplay Store — Pitch para inversionistas</h2>
+        <p>Experiencia inmersiva + merchandising de alta demanda dirigida a la comunidad otaku</p>
+      </div>
+      <div style="text-align:right">
+        <div class="tag">Versión: Pitch Inversionistas</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card">
+        <h3>Resumen ejecutivo</h3>
+        <p>Somos un emprendimiento de venta de productos inspirados en anime: pósters, prints, llaveros, pines y camisetas estampadas. La estrategia clave es el uso del cosplay como herramienta de atracción: el vendedor, caracterizado como personajes reconocibles, promueve productos en eventos, ferias y redes sociales generando conexión emocional y una experiencia inmersiva para el cliente.</p>
+
+        <h3>Problema que resolvemos</h3>
+        <p>Muchos fans buscan productos auténticos y una experiencia que vaya más allá de la compra; encontrar merchandising accesible y contactable en eventos locales puede resultar difícil. Las tiendas online genéricas no generan la misma conexión emocional que una experiencia en vivo.</p>
+
+        <h3>Propuesta de valor</h3>
+        <p>Ofrecemos productos atractivos de alta rotación acompañados de performance en cosplay que aumenta la visibilidad, el recuerdo de marca y la conversión en el punto de venta. Convertimos la compra en una experiencia memorable que fomenta repetición y recomendaciones.</p>
+
+        <h3>Mercado y oportunidad</h3>
+        <p>El mercado otaku es amplio y activo: convenciones, ferias, comunidades en redes y microinfluencers generan demanda constante por merchandising accesible y coleccionable. Nuestro enfoque combina venta física en eventos y venta online para aprovechar ambos canales.</p>
+
+        <h3>Modelo de negocio</h3>
+        <ul>
+          <li>Venta directa en eventos y ferias (alto tráfico y conversión)</li>
+          <li>Tienda online para pedidos y reventa</li>
+          <li>Ofertas por temporada y colecciones limitadas</li>
+          <li>Colaboraciones con microinfluencers y cosplayers locales</li>
+        </ul>
+
+        <h3>Estructura de costos (resumen)</h3>
+        <p>Costos variables: compra de inventario (pines, llaveros, posters, camisetas), producción y estampado. Costos fijos: cosplays (trajes, pelucas, props, mantenimiento), marketing (fotografía, publicidad en redes, manejo de redes), legales (permisos, contador), operaciones (almacenamiento, bolsas personalizadas, herramientas de pago, servicios públicos).</p>
+
+        <h3>Ventajas competitivas</h3>
+        <ul>
+          <li>Experiencia de venta inmersiva a través del cosplay y performance</li>
+          <li>Capacidad de creación y reparación de props propia (propmaker)</li>
+          <li>Habilidades de animación, baile y acrobacia para aumentar atracción en eventos</li>
+          <li>Uso de Excel para control de inventario y métricas operativas</li>
+        </ul>
+
+        <h3>Equipo</h3>
+        <p>Fundador con experiencia en cosplay, propmaking, performance y gestión operativa. Plan de contratación: community manager externo para manejo de redes y fotógrafo freelance por proyecto.</p>
+
+        <h3>Proyección y uso de la inversión</h3>
+        <p>Buscamos inversión para:</p>
+        <ul>
+          <li>Incrementar inventario y lanzar colecciones iniciales</li>
+          <li>Mejorar identidad de marca y presencia digital (diseño, dominio y tienda online)</li>
+          <li>Producción de cosplays y materiales promocionales</li>
+          <li>Marketing en redes y fotografía profesional</li>
+        </ul>
+        <p>Meta inicial: recuperar la inversión en 9–12 meses mediante ventas en eventos y venta online con margen objetivo del 40% en productos estampados y pines coleccionables.</p>
+
+        <h3>Llamado a la acción</h3>
+        <p>Si compartes nuestra visión, invierte en una marca que une merchandising y espectáculo en vivo para capturar a una audiencia apasionada. Contáctanos para recibir el plan financiero detallado, proyecciones de ventas y un calendario de eventos propuestos.</p>
+
+        <div class="kpi">
+          <div class="item"><div class="num">40%</div><div class="label">Margen objetivo</div></div>
+          <div class="item"><div class="num">9–12</div><div class="label">Meses para ROI estimado</div></div>
+          <div class="item"><div class="num">+10</div><div class="label">Eventos planificados / año</div></div>
+        </div>
+
+        <div class="cta">
+          <button class="btn btn-primary">Solicitar plan financiero</button>
+          <button class="btn btn-ghost">Descargar resumen (PDF)</button>
+        </div>
+
+      </main>
+
+      <aside class="card sidebar">
+        <h3>Datos rápidos</h3>
+        <p class="small"><strong>Productos:</strong> Pósters, prints, llaveros, pines, camisetas estampadas.</p>
+        <p class="small"><strong>Estrategia de ventas:</strong> Eventos en vivo + tienda online + redes sociales.</p>
+        <p class="small"><strong>Necesitamos:</strong> Capital semilla para inventario, marketing y producción de cosplays.</p>
+
+        <h3>Gastos principales</h3>
+        <ul>
+          <li>Producción de inventario</li>
+          <li>Cosplays y mantenimiento</li>
+          <li>Marketing y fotografía</li>
+          <li>Gestión de redes (contratar CM)</li>
+          <li>Gastos legales y contables</li>
+        </ul>
+
+        <h3>Habilidades del fundador</h3>
+        <p class="small">Cosplayer, propmaker, creativo, disciplinado, con habilidades de comunicación, Excel y performance física (taekwondo, acrobacia, baile).</p>
+
+        <h3>Contacto</h3>
+        <p class="small">Isaac Pineda Munera<br/>Email: <em>tu-email@example.com</em><br/>Tel: <em>+57 300 0000000</em></p>
+
+        <div style="margin-top:12px">
+          <div class="tag">Mercado: Otaku local</div>
+          <div class="tag">Canales: Eventos • Online</div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Documento: Pitch de inversión — Anime Cosplay Store • Versión para inversores
+    </footer>
+  </div>
+</body>
+</html>
